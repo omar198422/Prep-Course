@@ -35,7 +35,8 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return x + y
+  var suma = x + y;
+  return suma
 }
 
 function resta(x, y) {
@@ -236,10 +237,9 @@ function esVocal(letra){
 if(letra.length < 1){
   return "Dato incorrecto"
 } 
-else if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u")
+else if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u");
 {
 return "es vocal";
 }
-return "Dato incorrecto"
-  
-
+return "Dato incorrecto";
+}
